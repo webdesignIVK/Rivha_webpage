@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+*{
+margin: 0; padding: 0; box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;}
+
+
+header{width: 100%; height: 100vh;
+	  background-image: url('images/travel.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 30px;
+   font-size: 30px;
+   font-weight: 200;
+   text-shadow: 3px 1px 2px white;
+}
+	
+	
+ #sub{text-align: center;
+ 	background-color: green;
+ 	align-content: center;}
+
+	
+main{
+    margin-bottom: 100px;
+	width: 100%;
+	height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+}
+#fname {margin: 10px 0 0px 0;
+margin-bottom: 40px;}
+#lname {margin: 10px 0 0px 0;}
